@@ -1,0 +1,45 @@
+<!-- 
+	Author : udakhe.swaraj
+	Date : 29-May-2018
+	Desc : List
+-->
+
+<html>
+<head>
+
+<body>
+
+----------------------------Unordered list-----------------------
+
+<ul style="list-style-type:circle"> <!-- disc, square, none -->
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+-----------------------------Ordered list-------------------------
+ 
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+</body>
+
+</head>
+</html>
