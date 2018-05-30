@@ -1,0 +1,22 @@
+<!-- 
+
+	Author : udakhe.swaraj
+	Date : 29-May-2018
+	Desc : Elements tag
+
+ -->
+
+
+<html>
+
+<head>
+
+<body>
+
+<p>This is paragraph in elements</p>
+
+</body>
+
+</head>
+
+</html>
