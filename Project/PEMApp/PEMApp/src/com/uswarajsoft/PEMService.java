@@ -112,9 +112,9 @@ public class PEMService {
 		in.nextLine();
 		String remark = in.nextLine();
 		
-//		System.out.println("Enter date");
-		//TODO : Date can be taken fro user input.
-		Date date = new Date();
+		System.out.println("Enter date(DD/MM/YYYY): ");
+		String dateAsString = in.nextLine();
+		Date date = DateUtil.stringToDate(dateAsString);
 		
 		//Add Expense detail in Expense Object
 		Expense expense = new Expense();
@@ -135,7 +135,8 @@ public class PEMService {
 		for (int i = 0; i < repository.expList.size(); i++) {
 			Expense expense = expList.get(i);
 			String catName = getCategoryNameById(expense.getCategoryId());
-			System.out.println((i+1) + ". " + catName + ", " + expense.getAmount() + ", " + expense.getRemark() + ", " + expense.getDate());
+			String dateString = DateUtil.dateToString(expense.getDate());
+			System.out.println((i+1) + ". " + catName + ", " + expense.getAmount() + ", " + expense.getRemark() + ", " + dateString);
 		}
 	}
 
