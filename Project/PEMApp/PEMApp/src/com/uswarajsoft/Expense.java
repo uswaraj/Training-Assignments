@@ -23,15 +23,13 @@ public class Expense {
 
 	/**
 	 * @param expenseId
-	 * @param categoryId
 	 * @param amount
 	 * @param date
 	 * @param remark
 	 */
-	public Expense(Long expenseId, Long categoryId, Float amount, Date date, String remark) {
+	public Expense(Long expenseId, Float amount, Date date, String remark) {
 		super();
 		this.expenseId = expenseId;
-		this.categoryId = categoryId;
 		this.amount = amount;
 		this.date = date;
 		this.remark = remark;
