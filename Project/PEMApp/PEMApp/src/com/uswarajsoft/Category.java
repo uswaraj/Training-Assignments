@@ -4,12 +4,21 @@
 package com.uswarajsoft;
 
 /**
+ * This is a domain class represented a category.
  * @author udakhe.swaraj
  *
  */
 public class Category {
 
+	/**
+	 * It refers to a unique category Id. 
+	 * Here it is simply equal to generated using current time, but in real time application it should be generated using some profession strategy or algo.
+	 */
 	private Long categoryId = System.currentTimeMillis();
+	
+	/**
+	 * Name of Category.
+	 */
 	private String name;
 	
 	public Category() {
